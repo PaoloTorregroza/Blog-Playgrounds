@@ -1,5 +1,3 @@
-import Foundation
-
 public class BankAccount {
     public var money: Double
     
