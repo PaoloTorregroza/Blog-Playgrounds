@@ -6,7 +6,7 @@ public actor PendingPayment {
     
     public func hasBeenPaid() {
         if !paid {
-            print("Transaction need to be paid")
+            print("Transaction need to be paid \(amount)")
         } else {
             print("Transaction already paid")
         }
